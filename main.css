@@ -96,6 +96,7 @@ padding: 2px 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     font-size: 20px;
+    margin-bottom: 5%;
 }
 
 .form-group {
@@ -164,6 +165,42 @@ padding: 2px 16px;
 }
 .ulFlex li {
     margin-right:20px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.galleryContainer {
+    height: 12%;
+    width: 50%;
+    margin-left: 35%;
+    margin-bottom: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gallery-item {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 50%; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
 }
 
 @media (max-width: 429px) {
